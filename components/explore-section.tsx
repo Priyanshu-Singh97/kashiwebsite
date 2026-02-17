@@ -8,7 +8,7 @@ const exploreCards = [
   {
     category: "Hidden Temples",
     title: "The 56 Ganesh Temples",
-    image: "/images/hidden-temple.jpg",
+    image: "https://placehold.co/800x500/1a1a1a/FFF?text=Hidden+Temples",
     excerpt:
       "A sacred ring of 56 Ganesh temples encircles Kashi, forming an invisible protective barrier. Most visitors never discover more than a handful.",
     details:
@@ -17,7 +17,7 @@ const exploreCards = [
   {
     category: "Secret Ghats",
     title: "The Forgotten Steps of Meer Ghat",
-    image: "/images/manikarnika-ghat.jpg",
+    image: "https://placehold.co/800x500/1a1a1a/FFF?text=Meer+Ghat",
     excerpt:
       "While millions flock to Dashashwamedh, Meer Ghat sits in contemplative silence, its ancient stones holding secrets of medieval Sufi saints.",
     details:
@@ -26,7 +26,7 @@ const exploreCards = [
   {
     category: "Ancient Lanes",
     title: "Bengali Tola & The Scholar's Quarter",
-    image: "/images/narrow-lanes.jpg",
+    image: "https://placehold.co/800x500/1a1a1a/FFF?text=Ancient+Lanes",
     excerpt:
       "A labyrinth of lanes so narrow that sunlight barely touches the ground, hiding Sanskrit schools that have operated for over 500 years.",
     details:
@@ -35,7 +35,7 @@ const exploreCards = [
   {
     category: "Sadhus & Aghoris",
     title: "The Aghori Way of Death",
-    image: "/images/sadhu.jpg",
+    image: "https://placehold.co/800x500/1a1a1a/FFF?text=Sadhus+and+Aghoris",
     excerpt:
       "At the burning ghats, Aghori sadhus practice ancient rites that challenge every boundary between sacred and profane.",
     details:
@@ -44,7 +44,7 @@ const exploreCards = [
   {
     category: "Midnight Rituals",
     title: "The Midnight Aarti at Manikarnika",
-    image: "/images/ganga-aarti.jpg",
+    image: "https://placehold.co/800x500/1a1a1a/FFF?text=Midnight+Aarti",
     excerpt:
       "When the city sleeps, a different Kashi awakens. The midnight ceremonies at the burning ghat reveal the city's deepest spiritual layer.",
     details:
@@ -53,7 +53,7 @@ const exploreCards = [
   {
     category: "Living Heritage",
     title: "Banarasi Weaving Traditions",
-    image: "/images/banarasi-saree.jpg",
+    image: "https://placehold.co/800x500/1a1a1a/FFF?text=Weaving+Traditions",
     excerpt:
       "In dark rooms across the city, master weavers create silk masterpieces using techniques passed down through 40 generations.",
     details:
@@ -73,9 +73,8 @@ export function ExploreSection() {
       <div className="mx-auto max-w-7xl px-6">
         <div
           ref={ref}
-          className={`mb-16 text-center transition-all duration-700 md:mb-20 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`mb-16 text-center transition-all duration-700 md:mb-20 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <p className="mb-3 text-sm font-medium tracking-[0.3em] uppercase text-accent">
             The Main Highlight
@@ -113,9 +112,8 @@ function ExploreCard({
   return (
     <article
       ref={ref}
-      className={`group flex flex-col overflow-hidden border border-border bg-card transition-all duration-700 hover:border-accent/50 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-      }`}
+      className={`group flex flex-col overflow-hidden border border-border bg-card transition-all duration-700 hover:border-accent/50 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+        }`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
       {/* Image */}
@@ -145,9 +143,8 @@ function ExploreCard({
 
         {/* Expandable Details */}
         <div
-          className={`overflow-hidden transition-all duration-500 ${
-            isExpanded ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
-          }`}
+          className={`overflow-hidden transition-all duration-500 ${isExpanded ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
+            }`}
         >
           <p className="text-sm leading-relaxed text-card-foreground/50 border-t border-border pt-4">
             {card.details}
@@ -161,9 +158,8 @@ function ExploreCard({
         >
           {isExpanded ? "Read Less" : "Read More"}
           <svg
-            className={`h-3 w-3 transition-transform duration-300 ${
-              isExpanded ? "rotate-180" : ""
-            }`}
+            className={`h-3 w-3 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""
+              }`}
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

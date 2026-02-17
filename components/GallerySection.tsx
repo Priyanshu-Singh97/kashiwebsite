@@ -5,12 +5,12 @@ import Image from "next/image";
 import { ScrollReveal } from "./ScrollReveal";
 
 const images = [
-  { src: "/images/gallery-1.jpg", alt: "Banarasi saree weaving on a traditional handloom" },
-  { src: "/images/gallery-2.jpg", alt: "Dev Deepawali festival with thousands of lamps on the ghats" },
-  { src: "/images/gallery-3.jpg", alt: "Wooden boats on the Ganges at golden hour" },
-  { src: "/images/gallery-4.jpg", alt: "Traditional street food stall in Varanasi" },
-  { src: "/images/gallery-5.jpg", alt: "Ramnagar Fort on the banks of the Ganges" },
-  { src: "/images/gallery-6.jpg", alt: "Sarnath Buddhist stupa ruins near Varanasi" },
+  { src: "https://placehold.co/800x600/2a2a2a/FFF?text=Banarasi+Saree", alt: "Banarasi saree weaving on a traditional handloom" },
+  { src: "https://placehold.co/800x600/2a2a2a/FFF?text=Dev+Deepawali", alt: "Dev Deepawali festival with thousands of lamps on the ghats" },
+  { src: "https://placehold.co/800x600/2a2a2a/FFF?text=Ganges+Boats", alt: "Wooden boats on the Ganges at golden hour" },
+  { src: "https://placehold.co/800x600/2a2a2a/FFF?text=Street+Food", alt: "Traditional street food stall in Varanasi" },
+  { src: "https://placehold.co/800x600/2a2a2a/FFF?text=Ramnagar+Fort", alt: "Ramnagar Fort on the banks of the Ganges" },
+  { src: "https://placehold.co/800x600/2a2a2a/FFF?text=Sarnath+Stupa", alt: "Sarnath Buddhist stupa ruins near Varanasi" },
 ];
 
 export function GallerySection() {

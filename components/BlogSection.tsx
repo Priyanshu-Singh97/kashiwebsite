@@ -8,7 +8,7 @@ const articles = [
     title: "5 Hidden Places in Kashi No One Talks About",
     excerpt:
       "Beyond the well-trodden paths lie forgotten shrines, underground temples, and silent ghats that hold the true essence of this ancient city. Discover five places that even most locals have never visited.",
-    image: "/images/hidden-temple.jpg",
+    image: "https://placehold.co/800x400/1a1a1a/FFF?text=Hidden+Temples",
     date: "December 2025",
     readTime: "8 min read",
   },
@@ -16,7 +16,7 @@ const articles = [
     title: "Beyond Vishwanath: The Secret Temples",
     excerpt:
       "The 56 Ganesh temples form a sacred geometric boundary around the old city. The 8 Bhairavs guard Kashi from eight directions. These temple networks reveal a city designed as a cosmic mandala.",
-    image: "/images/ancient-arch.jpg",
+    image: "https://placehold.co/800x400/1a1a1a/FFF?text=Ancient+Architecture",
     date: "November 2025",
     readTime: "12 min read",
   },
@@ -24,7 +24,7 @@ const articles = [
     title: "The Midnight Soul of Kashi",
     excerpt:
       "When darkness falls and tourists retreat to their hotels, Kashi awakens to its most intimate self. Midnight aartis, Aghori meditations, and whispered prayers reveal a city that never truly sleeps.",
-    image: "/images/midnight-aarti.jpg",
+    image: "https://placehold.co/800x400/1a1a1a/FFF?text=Midnight+Aarti",
     date: "October 2025",
     readTime: "10 min read",
   },
