@@ -1,4 +1,4 @@
-import { Navigation } from "@/components/Navigation";
+import { Navigation } from "@/components/navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { HistorySection } from "@/components/HistorySection";
 import { CulturalSection } from "@/components/CulturalSection";
@@ -7,7 +7,7 @@ import { GallerySection } from "@/components/GallerySection";
 import { MapSection } from "@/components/MapSection";
 import { BlogSection } from "@/components/BlogSection";
 import { AboutSection } from "@/components/AboutSection";
-import { Footer } from "@/components/Footer";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
